@@ -28,7 +28,7 @@ days = Select(driver.find_element_by_name("days"))
 days.select_by_value("10")
 
 months = Select(driver.find_element_by_name("months"))
-months.select_by_index('8')
+months.select_by_index('9')
 
 years = Select(driver.find_element_by_name("years"))
 years.select_by_value("1985")
